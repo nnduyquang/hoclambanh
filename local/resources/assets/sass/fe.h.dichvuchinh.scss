@@ -1,0 +1,35 @@
+#fe_h_dvchinh hr {
+  height: 2px;
+  width: 86px;
+  background-color: #fdb822;
+}
+
+#fe_h_dvchinh p {
+  font-size: 22px;
+  font-weight: 600;
+  color: #684f40;
+}
+
+#fe_h_dvchinh span {
+  font-size: 16px;
+  color: #7d7d7d;
+
+}
+
+.img-detail {
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid #684f40;
+  font-size: 38px;
+  text-align: center;
+  color: #684f40;
+  line-height: 90px;
+  transition: .3s;
+}
+
+.img-detail:hover{
+  color: #fdb822;
+  border: 3px solid #fdb822;
+}

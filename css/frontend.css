@@ -1,4 +1,4 @@
-@font-face {
+@import url(https://fonts.googleapis.com/css?family=Asap+Condensed|Baloo+Chettan|Cuprum|Francois+One|Prompt|Saira+Semi+Condensed);@font-face {
   font-family: UTMAVO;
   src: url("../fonts/utm-avo.ttf");
 }
@@ -553,4 +553,743 @@ This class is added to the container
   -webkit-transform: translate(0, 0);
   transform: translate(0, 0);
   height: 46px;
+}
+
+div#fe_layout_topinfor_social {
+  background-color: #343434;
+}
+
+div#fe_layout_topinfo ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+div#fe_layout_topinfo ul li {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  color: white;
+  color: white;
+  padding: 5px;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+}
+
+div#fe_layout_topinfo ul li p {
+  padding-right: 15px;
+  border-right: 1px solid white;
+}
+
+div#fe_layout_topinfo ul li:last-child p {
+  border-right: none;
+}
+
+div#fe_layout_topinfo_socialnw div.circle {
+  padding: 2px;
+  border: 3px solid white;
+  background-color: transparent;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+div#fe_layout_topinfo_socialnw div.circle:hover {
+  background-color: white;
+}
+
+div#fe_layout_topinfo_socialnw a:hover {
+  width: 100%;
+  height: 100%;
+  color: black;
+}
+
+div#fe_layout_topinfo_socialnw a {
+  line-height: 20px;
+  color: white;
+  font-size: 13px;
+}
+
+@media (min-width: 750px) and (max-width: 999px) {
+  div#fe_layout_topinfo ul li:nth-last-child(1) {
+    display: none;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 750px) {
+  div#fe_layout_topinfo_socialnw div.circle {
+    padding: 2px;
+    width: 43px;
+    height: 43px;
+    border-radius: 50%;
+    text-align: center;
+  }
+  div#fe_layout_topinfo_socialnw a {
+    line-height: 30px;
+    color: white;
+    font-size: 22px;
+  }
+}
+
+#fe_layout_topmenu_logo {
+  border-bottom: 3px solid #684f40;
+  margin-bottom: 2px;
+}
+
+#fe_layout_topmenu_logo ul {
+  list-style-type: none;
+}
+
+#fe_layout_topmenu_logo ul li {
+  text-align: center;
+  vertical-align: middle;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: auto;
+  padding: 15px;
+  font-size: 20px;
+  font-family: 'Mitr', sans-serif;
+  color: #684f40;
+}
+
+#fe_layout_topmenu_logo ul li a {
+  color: #684f40;
+}
+
+#fe_layout_topmenu_logo ul li a:hover {
+  color: #fdb822;
+}
+
+#fe_layout_topmenu_logo > ul li {
+  border-right: 1px solid #aaabab;
+}
+
+#fe_layout_topmenu_logo ul li:nth-last-child(6),
+#fe_layout_topmenu_logo ul li:nth-last-child(5),
+#fe_layout_topmenu_logo ul li:nth-last-child(2) {
+  border-right: none;
+}
+
+img.logo {
+  width: 78px;
+  height: 78px;
+}
+
+.logo-slogan {
+  display: none;
+  padding-left: 10px;
+  line-height: 138px;
+  vertical-align: middle;
+  font-size: 32px;
+  font-family: 'Cuprum', sans-serif;
+  font-weight: 600;
+}
+
+@media (min-width: 300px) and (max-width: 999px) {
+  #fe_layout_topmenu_logo ul li:not(:nth-child(4)) {
+    display: none;
+  }
+  .logo-slogan {
+    display: block;
+  }
+  #fe_layout_topmenu_logo ul li:nth-child(4) {
+    width: 100%;
+    text-align: center;
+  }
+  #fe_layout_topmenu_logo ul li:last-child(1) {
+    width: 100%;
+    display: inline-block;
+    text-align: left;
+  }
+  img.logo {
+    width: 138px;
+    height: 138px;
+  }
+}
+
+@media (min-width: 100px) and (max-width: 450px) {
+  img.logo {
+    width: 100px;
+    height: 100px;
+    padding: 0;
+  }
+  .logo-slogan {
+    font-size: 26px;
+    line-height: 100px;
+  }
+}
+
+div#fe_home_banner {
+  overflow: hidden;
+  background-color: #fff;
+  padding: 3px;
+  text-align: center;
+  height: 386px;
+}
+
+div#fe_home_banner img-slider {
+  display: block;
+  height: 200px;
+  background: url(http://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/12/slide-1.jpg) no-repeat center center/cover;
+}
+
+div#fe_home_banner img-slider img {
+  position: absolute;
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 300px) and (max-width: 999px) {
+  div#fe_home_banner {
+    height: auto;
+  }
+}
+
+#fe_home_outlates_products {
+  border-top: 3px solid #684f40;
+  margin-top: 3px;
+}
+
+#fe_home_outlates_products hr {
+  height: 2px;
+  width: 86px;
+  background-color: #fdb822;
+}
+
+#fe_home_outlates_products p {
+  font-size: 22px;
+  font-weight: 600;
+  color: #684f40;
+}
+
+#fe_home_outlates_products span {
+  font-size: 16px;
+  color: #7d7d7d;
+}
+
+div.fe_pro_detailpro {
+  position: relative;
+  width: 99%;
+  margin: auto;
+  text-align: center;
+  background-color: #f9f9f9;
+  border: 2px solid #684f40;
+  vertical-align: middle;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+div.fe_pro_detailpro:hover a img {
+  opacity: 0.6;
+}
+
+div.fe_pro_detailpro:hover .pro-hover-info {
+  display: block;
+  opacity: 0.9;
+}
+
+div.fe_pro_detailpro a img {
+  padding: 25px 0 25px 0;
+  border: 7px solid white;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.pro-hover-info {
+  display: none;
+  position: absolute;
+  top: 50%;
+  opacity: 0.3;
+  width: 100%;
+  height: 50%;
+  background-color: rgba(253, 184, 34, 0.9);
+  z-index: 3;
+  -webkit-transition: .3s;
+  transition: .3s;
+  vertical-align: center;
+  text-align: center;
+  color: white;
+}
+
+.pro-hover-info span {
+  color: white;
+}
+
+div.btn-view-course {
+  position: absolute;
+  z-index: 1;
+  width: 43px;
+  height: 43px;
+  border-radius: 50%;
+  border: 3px solid #fdb822;
+  top: 0px;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #fdb822;
+  background-color: #fff;
+  -webkit-transition: .3s;
+  transition: .3s;
+  line-height: 36px;
+}
+
+div.btn-view-course:hover {
+  border: 3px solid #1b1e21;
+  background-color: #1b1e21;
+  color: white;
+}
+
+.btn-view-all-course {
+  padding: 10px 18px;
+  background-color: #fff;
+  border: 2px solid #684f40;
+  color: #684f40;
+  font-weight: bolder;
+  font-family: 'Nunito Sans', sans-serif;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.btn-view-all-course:hover {
+  background-color: #684f40;
+  color: white;
+}
+
+div.pro-hover-info > p {
+  padding-top: 25px;
+}
+
+div#about_chief {
+  background-image: url("http://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/12/img-2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-color: rgba(0, 0, 0, 0.3);
+  height: auto;
+  position: relative;
+  background-attachment: fixed;
+}
+
+div.about_chief_cover {
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  background-color: rgba(253, 184, 34, 0.8);
+}
+
+div#img_chief {
+  height: 300px;
+  overflow: hidden;
+}
+
+div#img_chief img {
+  width: auto;
+  height: 100%;
+  border-left: 13px solid #d1cfcf;
+  border-right: 13px solid #d1cfcf;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+div#about_chief p {
+  color: #404040;
+  line-height: 22px;
+  font-weight: 500;
+}
+
+div#about_chief_cover span {
+  font-size: 14px;
+}
+
+@media (min-width: 999px) and (max-width: 1199px) {
+  div#img_chief img {
+    width: auto;
+    height: 100%;
+    border-left: 8px solid #d1cfcf;
+    border-right: 8px solid #d1cfcf;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 999px) {
+  div.about_chief_cover .col-md-6 {
+    text-align: center;
+  }
+  div#img_chief img {
+    width: auto;
+    height: 100%;
+    border-radius: 50%;
+    border-left: 8px solid #d1cfcf;
+    border-right: 8px solid #d1cfcf;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+}
+
+#fe_h_dvchinh hr {
+  height: 2px;
+  width: 86px;
+  background-color: #fdb822;
+}
+
+#fe_h_dvchinh p {
+  font-size: 22px;
+  font-weight: 600;
+  color: #684f40;
+}
+
+#fe_h_dvchinh span {
+  font-size: 16px;
+  color: #7d7d7d;
+}
+
+.img-detail {
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid #684f40;
+  font-size: 38px;
+  text-align: center;
+  color: #684f40;
+  line-height: 90px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.img-detail:hover {
+  color: #fdb822;
+  border: 3px solid #fdb822;
+}
+
+div#fe_home_defProduct {
+  background-image: url("http://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/12/img-11.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 150px;
+}
+
+div#fe_home_defProduct p {
+  font-weight: bolder;
+  color: #684f40;
+  font-size: 38px;
+  padding: 40px 0px 0px 0px;
+  font-stretch: expanded;
+}
+
+div#fe_home_defProduct p.de-pro-slogan {
+  font-weight: 500;
+  font-size: 22px;
+  color: #684f40;
+  padding-bottom: 220px;
+}
+
+div.fe_home_defProduct-opacity {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  opacity: 0.8;
+}
+
+div#fe_home_defProduct img {
+  width: 40%;
+  height: auto;
+  position: absolute;
+  z-index: 1;
+  margin: auto;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+@media (min-width: 300px) and (max-width: 999px) {
+  div#fe_home_defProduct img {
+    width: 70%;
+    height: auto;
+    position: absolute;
+    z-index: 1;
+    margin: auto;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+}
+
+div.special-course-cooking hr {
+  height: 2px;
+  width: 86px;
+  background-color: #fdb822;
+}
+
+div.special-course-cooking p {
+  font-size: 22px;
+  font-weight: 600;
+  color: #684f40;
+}
+
+div.special-course-cooking span {
+  font-size: 16px;
+  color: #7d7d7d;
+}
+
+/* Style the tab */
+.tab {
+  float: left;
+  width: 20%;
+  height: auto;
+}
+
+/* Style the buttons inside the tab */
+.tab a {
+  background-color: #fff;
+  padding: 5px;
+  display: block;
+  height: 116px;
+  width: 116px;
+  border-radius: 50%;
+  border: 2px solid #e3e3e3;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  margin: 10px;
+}
+
+.tab a img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+/* Change background color of buttons on hover */
+.tab a:hover {
+  background-color: #fff;
+  border: 2px solid #fdb822;
+}
+
+/* Create an active/current "tab button" class */
+.tab a.active {
+  background-color: #fff;
+  border: 2px solid #fdb822;
+}
+
+/* Style the tab content */
+.tabcontent {
+  border: 2px solid #fdb822;
+  float: left;
+  padding: 0px 12px;
+  width: 80%;
+  height: 100%;
+}
+
+.tabcontent {
+  -webkit-animation: fadeEffect 1s;
+          animation: fadeEffect 1s;
+  /* Fading effect takes 1 second */
+}
+
+.tabcontent .col-md-6 {
+  font-size: 16px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+/* Go from zero to full opacity */
+@-webkit-keyframes fadeEffect {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeEffect {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+div#London .row:after {
+  content: " ";
+  position: absolute;
+  top: 13%;
+  /* To the left of the tooltip */
+  margin-top: -5px;
+  left: -10px;
+  width: 16px;
+  height: 16px;
+  background-color: #fff;
+  border-top: 2px solid #fdb822;
+  border-left: 2px solid #fdb822;
+  -webkit-transform: rotate(315deg);
+          transform: rotate(315deg);
+}
+
+div#Paris .row:after {
+  content: " ";
+  position: absolute;
+  top: 43%;
+  /* To the left of the tooltip */
+  margin-top: -5px;
+  left: -10px;
+  width: 16px;
+  height: 16px;
+  background-color: #fff;
+  border-top: 2px solid #fdb822;
+  border-left: 2px solid #fdb822;
+  -webkit-transform: rotate(315deg);
+          transform: rotate(315deg);
+}
+
+div#Tokyo .row:after {
+  content: " ";
+  position: absolute;
+  bottom: 25%;
+  /* To the left of the tooltip */
+  margin-top: -5px;
+  left: -10px;
+  width: 16px;
+  height: 16px;
+  background-color: #fff;
+  border-top: 2px solid #fdb822;
+  border-left: 2px solid #fdb822;
+  -webkit-transform: rotate(315deg);
+          transform: rotate(315deg);
+}
+
+@media (min-width: 500px) and (max-width: 999px) {
+  .tab a {
+    background-color: #fff;
+    padding: 5px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    height: 126px;
+    width: 126px;
+    border-radius: 50%;
+    border: 2px solid #e3e3e3;
+    text-align: center;
+    cursor: pointer;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    margin: 5px;
+  }
+  .tab {
+    float: left;
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+  .tabcontent {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 499px) {
+  .tab a {
+    background-color: #fff;
+    padding: 5px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    height: 86px;
+    width: 86px;
+    border-radius: 50%;
+    border: 2px solid #e3e3e3;
+    text-align: center;
+    cursor: pointer;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    margin: 5px;
+  }
+  .tab {
+    float: left;
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+  .tabcontent {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+}
+
+div#fe_home_gift {
+  background-image: url(http://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/12/pattern-1-1.jpg?id=1891);
+  background-repeat: repeat-x;
+}
+
+div#fe_home_gift hr {
+  height: 2px;
+  width: 86px;
+  background-color: #fdb822;
+}
+
+div#fe_home_gift p {
+  font-size: 22px;
+  font-weight: 600;
+  color: #684f40;
+}
+
+div#fe_home_gift span {
+  font-size: 16px;
+  color: #7d7d7d;
+}
+
+.fe_home_staff {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(253, 184, 34, 0.95);
+}
+
+.fe_home_staff .col-md-4 {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.fe_home_staff .col-md-4 div {
+  float: left;
+}
+
+.compoment-gift div {
+  display: inline-block;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.compoment-gift div:first-child a {
+  color: #684f40;
+  font-size: 38px;
+  line-height: 84px;
+}
+
+.compoment-gift div:first-child {
+  width: 86px;
+  height: 86px;
+  border-radius: 50%;
+  border: 2px solid #684f40;
+  margin-right: 15px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.compoment-gift div:first-child:hover {
+  background-color: #5b5b5b;
+}
+
+.compoment-gift div:first-child:hover a {
+  color: white;
+}
+
+.compoment-gift div:last-child > p {
+  font-size: 16px;
 }

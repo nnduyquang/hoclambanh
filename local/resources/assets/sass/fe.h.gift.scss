@@ -1,0 +1,68 @@
+div#fe_home_gift{
+  background-image: url(http://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/12/pattern-1-1.jpg?id=1891);
+  background-repeat: repeat-x;
+}
+
+div#fe_home_gift hr {
+  height: 2px;
+  width: 86px;
+  background-color: #fdb822;
+}
+
+div#fe_home_gift p {
+  font-size: 22px;
+  font-weight: 600;
+  color: #684f40;
+}
+
+div#fe_home_gift span {
+  font-size: 16px;
+  color: #7d7d7d;
+
+}
+
+.fe_home_staff{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(253, 184, 34, 0.95);
+}
+
+.fe_home_staff .col-md-4{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.fe_home_staff .col-md-4 div{
+  float: left;
+}
+
+.compoment-gift div{
+  display: inline-block;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.compoment-gift div:first-child a{
+  color: #684f40;
+  font-size: 38px;
+  line-height: 84px;
+}
+
+.compoment-gift div:first-child {
+  width: 86px;
+  height: 86px;
+  border-radius: 50%;
+  border: 2px solid #684f40;
+  margin-right: 15px;
+  transition: .3s;
+}
+
+.compoment-gift div:first-child:hover{
+  background-color: #5b5b5b;
+}
+.compoment-gift div:first-child:hover a{
+  color: white;
+}
+
+.compoment-gift div:last-child > p{
+  font-size: 16px;
+}

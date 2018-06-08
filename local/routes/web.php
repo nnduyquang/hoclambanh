@@ -4,6 +4,10 @@
 Route::get('/', function () {
     return view('frontend.home.index');
 });
+
+Route::get('/chitiet-sanpham', function () {
+    return view('frontend.Products.index');
+});
 Route::post('/tim-kiem','FrontendController@getSearch')->name('search');
 
 

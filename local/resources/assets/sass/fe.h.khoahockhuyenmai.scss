@@ -1,0 +1,192 @@
+div.special-course-cooking{
+
+}
+div.special-course-cooking hr {
+  height: 2px;
+  width: 86px;
+  background-color: #fdb822;
+}
+
+div.special-course-cooking p {
+  font-size: 22px;
+  font-weight: 600;
+  color: #684f40;
+}
+
+div.special-course-cooking span {
+  font-size: 16px;
+  color: #7d7d7d;
+
+}
+
+/* Style the tab */
+.tab {
+  float: left;
+  width: 20%;
+  height: auto;
+}
+
+/* Style the buttons inside the tab */
+.tab a {
+  background-color: #fff;
+  padding: 5px;
+  display: block;
+  height: 116px;
+  width: 116px;
+  border-radius: 50%;
+  border: 2px solid #e3e3e3;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+  margin: 10px;
+}
+
+.tab a img{
+  width: 100%;
+  border-radius: 50%;
+}
+
+/* Change background color of buttons on hover */
+.tab a:hover {
+  background-color: #fff;
+  border: 2px solid #fdb822;
+}
+
+/* Create an active/current "tab button" class */
+.tab a.active {
+  background-color: #fff;
+  border: 2px solid #fdb822;
+}
+
+/* Style the tab content */
+.tabcontent {
+  border: 2px solid #fdb822;
+  float: left;
+  padding: 0px 12px;
+  width: 80%;
+  height: 100%;
+}
+
+.tabcontent {
+  animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+
+.tabcontent .col-md-6{
+  font-size: 16px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+div#London .row:after {
+  content: " ";
+  position: absolute;
+  top: 13%;
+  /* To the left of the tooltip */
+  margin-top: -5px;
+  left: -10px;
+  width: 16px;
+  height: 16px;
+  background-color: #fff;
+  border-top: 2px solid #fdb822;
+  border-left: 2px solid #fdb822;
+  transform: rotate(315deg);
+}
+
+div#Paris .row:after {
+  content: " ";
+  position: absolute;
+  top: 43%;
+  /* To the left of the tooltip */
+  margin-top: -5px;
+  left: -10px;
+  width: 16px;
+  height: 16px;
+  background-color: #fff;
+  border-top: 2px solid #fdb822;
+  border-left: 2px solid #fdb822;
+  transform: rotate(315deg);
+}
+div#Tokyo .row:after {
+  content: " ";
+  position: absolute;
+  bottom: 25%;
+  /* To the left of the tooltip */
+  margin-top: -5px;
+  left: -10px;
+  width: 16px;
+  height: 16px;
+  background-color: #fff;
+  border-top: 2px solid #fdb822;
+  border-left: 2px solid #fdb822;
+  transform: rotate(315deg);
+}
+
+@media (min-width: 500px) and (max-width: 999px) {
+
+  .tab a {
+    background-color: #fff;
+    padding: 5px;
+    display: inline-flex;
+    height: 126px;
+    width: 126px;
+    border-radius: 50%;
+    border: 2px solid #e3e3e3;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 5px;
+  }
+
+  .tab {
+    float: left;
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+
+  .tabcontent {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+
+
+}
+
+@media (min-width: 200px) and (max-width: 499px) {
+
+  .tab a {
+    background-color: #fff;
+    padding: 5px;
+    display: inline-flex;
+    height: 86px;
+    width: 86px;
+    border-radius: 50%;
+    border: 2px solid #e3e3e3;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 5px;
+  }
+
+  .tab {
+    float: left;
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+
+  .tabcontent {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+
+}

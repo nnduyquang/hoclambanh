@@ -1,16 +1,25 @@
 @extends('frontend.master')
 @section('title')
-    Nội Thất
+    DẠY HỌC LÀM BÁNH CHÚ QUÂN
 @stop
 @section('description')
-    Nội Thất
+    DẠY HỌC LÀM BÁNH CHÚ QUÂN
 @stop
 @section('styles')
-    {{ Html::style('css/themes/default/default.css') }}
+
 @stop
-@section('slider')
-    @include('frontend.common.slider')
+@section('bodycontent')
+
+    @include('frontend.home.fe_home_banner')
+    @include('frontend.home.fe_home_outlatest_product')
+    @include('frontend.home.fe_h_about_chief')
+    @include('frontend.home.fe_h_divhcuchinh')
+    @include('frontend.home.fe_home_defferencetype')
+    @include('frontend.home.fe_h_khoahockhuyenmai')
+    @include('frontend.home.fe_h_gift')
+    @include('frontend.home.fe_h_staff')
+    @include('frontend.home.fe_home_map')
+
+
 @stop
-@section('container')
-    hello
-@stop
+
