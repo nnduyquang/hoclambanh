@@ -1,8 +1,3 @@
-<style>
-
-
-</style>
-
 <div class="container-fluid mb-5" id="fe_h_khoahockhuyenmai">
     <div class="container">
         <div class="row special-course-cooking">
