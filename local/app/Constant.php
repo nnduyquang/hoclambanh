@@ -16,3 +16,10 @@ define("CATEGORY_PRODUCT_CAP_3",3);
 
 define("CATEGORY_POST",0);
 define("CATEGORY_PRODUCT",1);
+
+define("ACTIVE",1);
+define("DEACTIVATE",0);
+
+
+define("IS_PAGE",0);
+define("IS_POST",1);

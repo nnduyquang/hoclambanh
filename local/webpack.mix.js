@@ -52,11 +52,12 @@ mix
     ], '../css/login.css')
 
     .styles([
-        'resources/assets/js/ulti.js',
         'resources/assets/js/login1.js',
     ], '../js/login.js')
     .styles([
         'resources/assets/js/ulti.js',
+    ], '../js/ulti.js')
+    .styles([
         'resources/assets/js/be.common.js',
         'resources/assets/js/be.page.js',
         'resources/assets/js/be.post.js',
