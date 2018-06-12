@@ -47,8 +47,6 @@ integratedCKEDITOR('content-page',height=800);
 // }
 // =========================================================
 // $('#btnBrowseImagePage').filemanager('image');
-var domain = "/start-project/laravel-filemanager";
-$('#btnBrowseImagePage').filemanager('image', {prefix: domain});
 integratedCKEDITOR('description-post',height=200);
 integratedCKEDITOR('content-post',height=800);
 // integratedCKEDITOR('seo-description-post',height=200);
