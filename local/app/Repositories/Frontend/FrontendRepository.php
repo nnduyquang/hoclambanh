@@ -28,7 +28,9 @@ class FrontendRepository implements FrontendRepositoryInterface
     {
         $data = '';
         $product = Post::where('path', $path)->first();
+        $orderProduct=Post::where('category_item_id',$product->category_item_id)->where('id','!=',$product->id)->get();
         $data['product'] = $product;
+        $data['orderProduct'] = $orderProduct;
         return $data;
     }
 

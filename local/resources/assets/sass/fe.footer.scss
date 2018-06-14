@@ -1,0 +1,130 @@
+#footer {
+  div#layout_master_footer_top .col-md-5 > p {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    padding-bottom: 30px;
+  }
+
+  div#layout_master_footer_top .col-md-5 > span {
+    font-size: 18px;
+    color: #aaabab;
+    font-family: 'Nunito Sans', sans-serif;
+    padding-bottom: 30px;
+  }
+
+  div#layout_master_footer {
+    background-color: #202020;
+    color: white;
+  }
+
+  div#layout_master_footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 30px 0px;
+  }
+
+  div#layout_master_footer ul li {
+    display: block;
+    font-size: 16px;
+    padding: 5px 0px;
+  }
+
+  div#layout_master_footer ul li:first-child {
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 16px;
+    font-family: 'Mitr', sans-serif;
+  }
+
+  div#layout_master_footer ul li a {
+    font-size: 16px;
+    color: white;
+    transition: .3s;
+  }
+
+  div#layout_master_footer ul li a:hover {
+    text-decoration: none;
+    padding-left: 15px;
+    color: white;
+  }
+
+  div#layout_master_footer ul li button {
+
+    border: none;
+    background-color: transparent;
+
+  }
+
+  div#layout_footer_copyright {
+    font-size: 13px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #9d9fa0;
+  }
+
+  div#layout_footer_copyright span {
+    color: white;
+  }
+
+  div.fe-layout-foot-emailus {
+
+    margin-top: 20px;
+
+  }
+
+  div.fe-layout-foot-emailus button {
+    padding: 10px;
+    color: #777777;
+    background-color: #fff;
+    margin-left: 10px;
+    font-weight: 600;
+    box-sizing: border-box;
+    font-family: 'Cuprum', sans-serif;
+    border: none;
+    transition: .3s;
+  }
+
+  div.fe-layout-foot-emailus button:hover {
+
+    color: white;
+    background-color: #fdb822;
+    box-sizing: border-box;
+    border: none;
+  }
+
+  div.fe-layout-foot-emailus input {
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 6px;
+    background-color: #4f5050;
+    color: white;
+    border: 2px solid #aaabab;
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 999px) {
+  #footer {
+    #footer_aboutus {
+      text-align: center;
+    }
+
+    .fe-layout-foot-emailus {
+      text-align: center;
+    }
+
+    .fe-layout-foot-emailus input {
+      width: 90%;
+      margin-bottom: 10px;
+    }
+
+    div.fe-layout-foot-emailus button {
+      width: 90%;
+      margin: auto;
+    }
+
+    div.fe-layout-foot-emailuscontent {
+    }
+  }
+}
+

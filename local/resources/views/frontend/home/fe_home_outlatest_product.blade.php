@@ -33,33 +33,8 @@
                                 </div>
                             </div>
                         @endforeach
-
-
-                        <div class="col-md-3 col-sm-6 mb-4 border-brown">
-                            <div class="fe_pro_detailpro">
-                                <a href="sanpham-chitiet.html">
-
-                                    <img src="http://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/11/danish-1-600x600.jpg"
-                                         alt="" style="width: 98%;height: auto; margin: 3px">
-
-                                </a>
-
-                                <div class="pro-hover-info">
-                                    <a href="">
-                                        <div class="btn-view-course">
-                                            <i class="fas fa-search"></i>
-                                        </div>
-                                    </a>
-
-                                    <p style="font-size: 15px;color: white">BÁNH SỪNG TRÂU</p>
-                                    <span style="color: white;margin-top: 15px;">Xem thông tin khóa học</span>
-                                </div>
-                            </div>
-                        </div>
-
-
                         <div class="col-md-12 text-center mb-5 mt-5">
-                            <a href="" class="btn-view-all-course">VIEW ALL COURSE</a>
+                            <a href="" class="btn-view-all-course">Xem Tất Cả Khóa Học</a>
                         </div>
 
                     </div>

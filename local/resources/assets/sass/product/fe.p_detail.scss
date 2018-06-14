@@ -1,0 +1,96 @@
+#p_detail {
+  border-top: 3px solid #684f40;
+  margin-top: 3px;
+  #tab_detail_pro {
+    .tab2 {
+      overflow: hidden;
+      button {
+        color: white;
+        font-family: 'Nunito Sans', sans-serif;
+        background-color: #ddd;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 14px 16px;
+        transition: 0.3s;
+        font-size: 16px;
+        margin-right: 3px;
+        &:hover {
+          background-color: #fdb822;
+        }
+        &.active {
+          background-color: #fdb822;
+        }
+      }
+    }
+    .tabcontent2 {
+      display: none;
+      padding: 26px 22px;
+      border: 1px solid #ccc;
+      line-height: 1.8;
+      font-size: 18px;
+      span {
+        padding: 10px;
+      }
+    }
+  }
+  #fe_pro_detail_spec {
+    .col-12:nth-child(2) p {
+      font-size: 26px;
+      color: #fdb822;
+      font-weight: normal;
+      span {
+        font-size: 16px;
+        color: #fdb822;
+        font-weight: normal;
+      }
+    }
+    .col-12:nth-last-child(1) a {
+      display: inline-block;
+      line-height: 36px;
+      color: white;
+      .circle {
+        text-align: center;
+        width: 38px;
+        height: 38px;
+        border-radius: 50%;
+        background-color: #684f40;
+        transition: .3s;
+        &:hover {
+          :hover {
+            background-color: #fdb822;
+          }
+        }
+      }
+    }
+    button {
+      margin-top: 30px;
+      padding: 18px 10px;
+      border: none;
+      color: white;
+      background-color: #fdb822;
+      transition: .3s;
+      font-weight: 600;
+      &:hover {
+        :hover {
+          background-color: #684f40;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 300px) and (max-width: 599px) {
+  #p_detail {
+    .tab {
+      width: 100%;
+    }
+
+    .tab button {
+      display: block;
+      width: 100%;
+      margin-bottom: 5px;
+    }
+  }
+}

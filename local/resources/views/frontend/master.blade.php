@@ -19,14 +19,20 @@
     @yield('styles')
 </head>
 <body>
-
-@include('frontend.layouts.fe_layout_topinfor_socialnw')
-@include('frontend.layouts.fe_layout_topmenu_logo')
-
+@include('frontend.common.menu.menu')
 @yield('bodycontent')
 
-@include('frontend.layouts.layout_master_footer')
+@include('frontend.common.footer')
 
 </body>
-
+{{ Html::script('js/core.common.js') }}
+{{ Html::script('js/core.frontend.js') }}
+<script type="text/javascript">
+    $.ajaxSetup({
+        headers: {
+            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+        }
+    });
+</script>
+{{ Html::script('js/scripts.js') }}
 </Html>

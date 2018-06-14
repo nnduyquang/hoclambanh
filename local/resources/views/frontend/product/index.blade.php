@@ -3,7 +3,7 @@
 @section('bodycontent')
 
     @include('frontend.home.fe_home_banner')
-    @include('frontend.product.fe_pro_details')
-    @include('frontend.product.fe_pro_relatepro')
+    @include('frontend.product.p_details')
+    @include('frontend.product.p_relate')
 
 @endsection
