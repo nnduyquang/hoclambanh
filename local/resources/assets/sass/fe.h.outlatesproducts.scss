@@ -1,7 +1,8 @@
-#fe_home_outlates_products{
+#fe_home_outlates_products {
   border-top: 3px solid #684f40;
   margin-top: 3px;
 }
+
 #fe_home_outlates_products hr {
   height: 2px;
   width: 86px;
@@ -48,6 +49,7 @@ div.fe_pro_detailpro a img {
   padding: 25px 0 25px 0;
   border: 7px solid white;
   box-sizing: border-box;
+  height: 255px;
 }
 
 .pro-hover-info {
@@ -65,7 +67,7 @@ div.fe_pro_detailpro a img {
   color: white;
 }
 
-.pro-hover-info span{
+.pro-hover-info span {
   color: white;
 }
 
@@ -91,8 +93,7 @@ div.btn-view-course:hover {
   color: white;
 }
 
-
-.btn-view-all-course{
+.btn-view-all-course {
   padding: 10px 18px;
   background-color: #fff;
   border: 2px solid #684f40;
@@ -102,7 +103,7 @@ div.btn-view-course:hover {
   transition: .3s;
 }
 
-.btn-view-all-course:hover{
+.btn-view-all-course:hover {
   background-color: #684f40;
   color: white;
 }

@@ -798,6 +798,7 @@ div.fe_pro_detailpro a img {
   border: 7px solid white;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  height: 255px;
 }
 
 .pro-hover-info {

@@ -1,9 +1,8 @@
 <?php
 
 
-Route::get('/', function () {
-    return view('frontend.home.index');
-});
+Route::get('/','FrontendController@getFrontend');
+Route::get('/khoa-hoc/{path}','FrontendController@getProductDetail');
 
 Route::get('/chitiet-sanpham', function () {
     return view('frontend.Products.index');

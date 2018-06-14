@@ -210,4 +210,10 @@ class PostController extends Controller
             }
         }
     }
+    public function search(Request $request)
+    {
+        $keywords = preg_replace('/\s+/', ' ', $request->input('txtSearch'));
+        $posts = Post::where('title', 'like', '%' . $keywords . '%')->orderBy('id', 'DESC')->paginate(5);
+        return view('backend.admin.post.index', compact('posts', 'keywords'))->with('i', ($request->input('posts', 1) - 1) * 5);
+    }
 }

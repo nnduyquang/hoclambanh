@@ -95,7 +95,7 @@
         background-color: #fdb822;
     }
 
-    div#fe_pro_detail_spec button{
+    div#fe_pro_detail_spec button {
 
         margin-top: 30px;
         padding: 18px 10px;
@@ -107,19 +107,19 @@
 
     }
 
-    div#fe_pro_detail_spec button:hover{
+    div#fe_pro_detail_spec button:hover {
 
         background-color: #684f40;
-
 
     }
 
     @media (min-width: 300px) and (max-width: 599px) {
 
-        .tab{
+        .tab {
             width: 100%;
         }
-        .tab button{
+
+        .tab button {
             display: block;
             width: 100%;
             margin-bottom: 5px;
@@ -133,36 +133,29 @@
     <div class="container">
         <div class="row mt-5 mb-5">
             <div class="col-md-5">
-                <img src="http://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/11/cookie-1.jpg"
-                     style="width: 100%;height: auto;" alt="">
+                {{ Html::image($data['product']->image,'',array('class'=>'')) }}
             </div>
             <div class="col-md-7">
                 <div class="row" id="fe_pro_detail_spec">
                     <div class="col-12 border-top border-bottom p-3">
-                        <p>AMARETTI COOKIE</p>
+                        <p>{{$data['product']->title}}</p>
                     </div>
                     <div class="col-12 pt-3 pb-3">
-                        <p>$12.95</p>
+                        {{--<p>$12.95</p>--}}
                         <span>
-                             <br>
-                            Channeling the old-world techniques of our Grandma Grace and her unwavering
-                            ability to produce hand-crafted cookies consistently both delicious and ornate,
-                            her much beloved amaretti cookie recipe will take you to straight into the doors of the authentic bakeries of Lipari, Italy and their intoxicating aromas. Created carefully with the same love, attention and high-quality, real ingredients we know our nonna would only approve of, our fresh amaretto cookie dough is hand-dipped with care in crystallized sugar and adorned with a whole almond just before it’s placed into our oven to gently bake to perfection. The final result is a rich,
-                            bold, dense cookie adored by the whole famiglia.
-                            <br>
-
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Amet consectetur adipiscing elit duis tristique sollicitudin nibh sit amet.
+                             {!! $data['product']->description !!}
                         </span>
 
                         <br>
-                        <a href=""><button>
-                                <i class="far fa-edit"></i> ĐĂNG KÝ KHÓA HỌC</button></a>
+                        <a href="">
+                            <button>
+                                <i class="far fa-edit"></i> ĐĂNG KÝ KHÓA HỌC
+                            </button>
+                        </a>
                     </div>
 
                     <div class="col-12 pt-3 pb-3 border-bottom border-top">
-                        <p>Category: <span>Cookies</span></p>
+                        <p>Category: <span>{{$data['product']->categoryitem->name}}</span></p>
 
                     </div>
 
@@ -191,25 +184,7 @@
                 </div>
 
                 <div id="London" class="tabcontent2">
-                    <span> Channeling the old-world techniques of our Grandma Grace and her unwavering ability to produce
-                        hand-crafted cookies consistently both delicious and ornate, her much beloved amaretti cookie
-                        recipe will take you to straight into the doors of the authentic bakeries of Lipari, Italy and
-                        their intoxicating aromas. Created carefully with the same love, attention and high-quality, real
-                        ingredients we know our nonna would only approve of, our fresh amaretto cookie dough is hand-dipped
-                        with care in crystallized sugar and adorned with a whole almond just before it’s placed into our
-                        oven to gently bake to perfection. The final result is a rich, bold, dense cookie adored by the
-                        whole famiglia.
-                    <br>
-                        <br>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                        et dolore magna aliqua. Faucibus vitae aliquet nec ullamcorper sit amet risus nullam. Mi tempus
-                        imperdiet nulla malesuada pellentesque elit eget gravida. Sit amet commodo nulla facilisi nullam
-                        vehicula ipsum. Sagittis eu volutpat odio facilisis. Leo a diam sollicitudin tempor id eu nisl nunc.
-                        Habitasse platea dictumst quisque sagittis purus sit amet. Diam quam nulla porttitor massa id neque.
-                        Risus in hendrerit gravida rutrum quisque. Orci sagittis eu volutpat odio facilisis mauris sit amet
-                        massa. Condimentum id venenatis a condimentum vitae. Diam ut venenatis tellus in metus vulputate eu.
-                        Nisi porta lorem mollis aliquam ut. Ut etiam sit amet nisl purus in mollis nunc sed.
-                        </span>
+                    {!!  $data['product']->content!!}
                 </div>
 
                 <div id="Paris" class="tabcontent2">
