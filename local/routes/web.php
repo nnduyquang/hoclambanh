@@ -5,8 +5,13 @@ Route::get('/','FrontendController@getFrontend');
 Route::get('/khoa-hoc/{path}','FrontendController@getProductDetail');
 
 Route::get('/chitiet-sanpham', function () {
-    return view('frontend.Products.index');
+    return view('frontend.product.index');
 });
+
+Route::get('/danhsach-khoahoc', function () {
+    return view('frontend.category.index');
+});
+
 Route::post('/tim-kiem','FrontendController@getSearch')->name('search');
 
 

@@ -1,6 +1,4 @@
-<style>
 
-</style>
 
 <div class="container-fluid p-0" id="fe_home_banner">
     <div class="img-slider">
