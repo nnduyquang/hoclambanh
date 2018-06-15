@@ -9,4 +9,6 @@ interface FrontendRepositoryInterface
     public function getFrontEndInfo();
 
     public function getProductDetail($path);
+
+    public function getCategoryDetail($path);
 }

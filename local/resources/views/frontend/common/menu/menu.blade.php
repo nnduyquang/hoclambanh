@@ -36,7 +36,7 @@
                     <ul>
                         <li><a href="{{URL::to('/')}}">Trang chủ</a></li>
                         <li><a href="">Giới Thiệu</a></li>
-                        <li><a href="">
+                        <li><a href="{{URL::to('danh-muc/hoc-lam-banh-mi')}}">
                                 <div class="drop-hover">Học Làm Bánh Mì</div>
                             </a>
 
@@ -47,7 +47,7 @@
                                  alt="">
                             <a href=""><span class="logo-slogan">Mr BA BAKERY</span></a>
                         </li>
-                        <li><a href="">Học làm bánh kem</li>
+                        <li><a href="{{URL::to('danh-muc/hoc-lam-banh-kem')}}">Học làm bánh kem</li>
                         <li><a href="">Tin Tức</a></li>
                         <li><a href="">Liên Hệ</a></li>
                     </ul>

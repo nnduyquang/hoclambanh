@@ -22,6 +22,10 @@ class FrontendController extends Controller
         $data = $this->frontendRepository->getProductDetail($path);
         return view('frontend.product.index', compact('data'));
     }
+    public function getCategoryDetail($path){
+        $data = $this->frontendRepository->getCategoryDetail($path);
+        return view('frontend.category.index', compact('data'));
+    }
 
 }
 

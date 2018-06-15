@@ -7,8 +7,11 @@ div#category_list {
     display: block;
     padding-bottom: 15px;
     border-bottom: 2px solid #b6b6b5;
+    text-transform: uppercase;
   }
-
+  .description {
+    line-height: 1.8;
+  }
   .col-md-12 > p:before {
     position: absolute;
     content: '';

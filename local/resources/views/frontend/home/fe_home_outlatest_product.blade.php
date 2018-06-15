@@ -34,7 +34,7 @@
                             </div>
                         @endforeach
                         <div class="col-md-12 text-center mb-5 mt-5">
-                            <a href="" class="btn-view-all-course">Xem Tất Cả Khóa Học</a>
+                            <a href="{{URL::to('danh-muc/hoc-lam-banh-mi')}}" class="btn-view-all-course">Xem Tất Cả Khóa Học</a>
                         </div>
 
                     </div>
