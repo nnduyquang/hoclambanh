@@ -1,5 +1,5 @@
 <style>
-    
+
 
 </style>
 
@@ -13,9 +13,8 @@
                         <a href=""><i class="fas fa-gift"></i></a>
                     </div>
                     <div class="align-self-center mb-3">
-                        <p class="pb-2">BAKED WITH LOVE</p>
-                        We are passionate about baking. Each of our <br>
-                        handmade items are carefully baked with love.
+                        <p class="pb-2">GIA TRUYỀN</p>
+                        Lớp dạy làm bánh gia truyền 25 năm trong nghề
 
                     </div>
                 </div>
@@ -26,9 +25,8 @@
                         <a href=""><i class="fas fa-gift"></i></a>
                     </div>
                     <div class="align-self-center mb-3">
-                        <p class="pb-2">FRESH INGREDIENTSE</p>
-                        We are passionate about baking. Each of our <br>
-                        handmade items are carefully baked with love.
+                        <p class="pb-2">CAM KẾT</p>
+                        Học có bảo hành, dạy lại miễn phí nếu không làm được. Nhận dạy tại lò bánh mì, chuyển giao công nghệ lò bánh mì, hướng dẫn cách thức kinh doanh làm lò bánh mì
 
                     </div>
                 </div>
@@ -39,9 +37,8 @@
                         <a href=""><i class="far fa-clock"></i></a>
                     </div>
                     <div class="align-self-center mb-3">
-                        <p class="pb-2">ON TIME DELIVERY</p>
-                        We are passionate about baking. Each of our <br>
-                        handmade items are carefully baked with love.
+                        <p class="pb-2">NGUYÊN LIỆU</p>
+                        Bao nguyên liệu, nguyên liệu cao cấp. Có thành phẩm mang về
 
                     </div>
                 </div>

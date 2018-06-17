@@ -1,3 +1,4 @@
+@include('frontend.page.introduce_content')
 <div id="p_relate">
     <div class="container p-0">
         <div class="row">

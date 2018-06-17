@@ -5,83 +5,59 @@
             <div class="col-md-12 text-center mb-5 mt-5">
                 <p>KHÓA HỌC LÀM BÁNH NHANH</p>
                 <hr>
-                <span>We offer something different to local and foreign patrons <br>
-                    and ensure you enjoy a memorable food experience every time.</span>
+                <span>Học 1 kèm 1, bao làm được, có bảo hành, bao nguyên liệu, dụng cụ, bao mọi thứ</span>
             </div>
 
             <div class="col-md-12 position-relative">
 
                 <div class="tab">
                     <a class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">
-                        <img src="http://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/11/muffin-3-300x300.jpg" alt="">
+                        {{ Html::image('images/temps/home/banh_mi_tuoi.JPG','',array('class'=>'')) }}
                     </a>
                     <a class="tablinks" onclick="openCity(event, 'Paris')">
-                        <img src="http://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/11/bread-3-600x600.jpg" alt="">
+                        {{ Html::image('images/temps/home/cake_fresh.jpg','',array('class'=>'')) }}
                     </a>
                     <a class="tablinks" onclick="openCity(event, 'Tokyo')">
-                        <img src="http://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/11/danish-1-600x600.jpg" alt="">
+                        {{ Html::image('images/temps/home/pho.jpg','',array('class'=>'')) }}
                     </a>
                 </div>
 
                 <div id="London" class="tabcontent p-1 position-relative">
                     <div class="row p-1 pos">
-                        <div class="col-md-6 p-3 text-center">
-                            <p>MAPLE OAT MUFFIN </p><br>
-                            <br>
-                            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-                            Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero
-                            sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
-                            <br>
-                            <br>
-                            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-                            Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper
-                            . Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+                        <div class="col-md-6 p-3 text-center" style="line-height: 1.5">
+                            <p>HỌC LÀM BÁNH MÌ </p><br>
+                            Nhờ vào nguyên liệu tươi ngon và bàn tay chế biến khéo léo của đội ngũ đầu bếp, các sản phẩm bánh mì được ra lò thơm ngon, chất lượng. Chẳng những ngon miệng, đẹp mắt, giàu chất dinh dưỡng mà còn mang đến sự hứng thú cho người thưởng thức
                         </div>
                         <div class="col-md-6 text-right">
-                            <img src="http://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/11/muffin-3-300x300.jpg" alt=""
-                            style="width: 100%;height: auto;margin: auto">
+                            {{ Html::image('images/temps/home/banh_mi_tuoi.JPG','',array('style'=>'width: 100%;height: auto;margin: auto')) }}
                         </div>
                     </div>
                 </div>
 
                 <div id="Paris" class="tabcontent position-relative">
                     <div class="row p-1 pos">
-                        <div class="col-md-6 p-3 text-center">
-                            <p>CIABATTA </p><br>
+                        <div class="col-md-6 p-3 text-center" style="line-height: 1.5">
+                            <p>HỌC LÀM BÁNH KEM </p><br>
                             <br>
-                            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-                            Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero
-                            sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
-                            <br>
-                            <br>
-                            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-                            Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper
-                            . Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+                            Để tạo ra những chiếc bánh kem mang hương vị “nhà nghề”, một người mới bắt đầu cần dành nhiều thời gian hơn cho sự tìm tòi, khám phá và thậm chí là mang vào hương vị bánh cả cái tâm và những trải nghiệm mới mẻ sau mỗi lần thực hiện một loại bánh khác nhau. Vì thế, việc tham gia vào những lớp học làm bánh kem cũng giống như bạn đang bước vào một thế giới ngọt ngào đầy màu sắc, điều cần thiết chính là tự mình lật giở những trang sách mới, tận hưởng thời gian nhàn rỗi trong gian bếp bánh và dần biến đam mê của mình trở thành động lực học tập để thành nghề.
                         </div>
                         <div class="col-md-6 text-right">
-                            <img src="http://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/11/bread-3.jpg" alt=""
-                                 style="width: 100%;height: auto;margin: auto">
+                            {{ Html::image('images/temps/home/cake_fresh.jpg','',array('style'=>'width: 100%;height: auto;margin: auto')) }}
                         </div>
                     </div>
                 </div>
 
                 <div id="Tokyo" class="tabcontent position-relative">
                     <div class="row p-1 pos">
-                        <div class="col-md-6 p-3 text-center">
-                            <p>CROISSANT </p><br>
+                        <div class="col-md-6 p-3 text-center" style="line-height: 1.5">
+                            <p>CÁC MÓN NGON KHÁC</p><br>
                             <br>
-                            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-                            Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero
-                            sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
-                            <br>
-                            <br>
-                            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-                            Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper
-                            . Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+                            món Bún Bò Huế và Phở bò đã không còn xa lạ với hầu hết thực khách. Nó đã trở thành món ăn “khoái khẩu” không chỉ với người dân Việt Nam mà còn tạo ấn tượng trong lòng thực khách thế giới. Hiện nay, rất nhiều mô hình kinh doanh về các món ăn này xuất hiện. Tuy nhiên, để tìm được địa chỉ thưởng thức hương vị thơm ngon, đậm đà đúng nghĩa của món Phở, Bún Bò Huế chuẩn vị không hề dễ dàng.
+
+                            "Mong muốn lớn nhất của tôi là tìm nơi dạy nấu ăn chuyên nghiệp & học được bí quyết nấu Phở, Bún Bò Huế chất lượng để kinh doanh quán thành công và xây dựng thương hiệu ngày càng được mọi người biết đến…"
                         </div>
                         <div class="col-md-6 text-right">
-                            <img src="http://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/11/danish-1-600x600.jpg" alt=""
-                                 style="width: 100%;height: auto;margin: auto">
+                            {{ Html::image('images/temps/home/pho.jpg','',array('style'=>'width: 100%;height: auto;margin: auto')) }}
                         </div>
                     </div>
                 </div>

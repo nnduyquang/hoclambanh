@@ -340,7 +340,7 @@ img {
 }
 
 .sidebar .icon-sidebar {
-  width: 56px;
+  width: 18px;
 }
 
 .sidebar ul li a {
@@ -349,7 +349,7 @@ img {
 }
 
 .sidebar .background-sidebar {
-  background-image: url(../images/logo/logo_footer.png);
+  background-image: url(../images/logo/logo.png);
   height: calc(56px*4);
   background-repeat: no-repeat;
   background-size: contain;
@@ -470,8 +470,8 @@ This class is added to the container
   display: -ms-inline-flexbox;
   display: inline-flex;
   margin: auto;
-  padding: 15px;
-  font-size: 20px;
+  padding: 5px;
+  font-size: 14px;
   font-family: 'Mitr', sans-serif;
   color: #684f40;
   text-transform: uppercase;
@@ -749,29 +749,29 @@ div#fe_home_banner img-slider img {
   }
 }
 
-#fe_home_outlates_products {
+#h_product {
   border-top: 3px solid #684f40;
   margin-top: 3px;
 }
 
-#fe_home_outlates_products hr {
+#h_product .header-top hr {
   height: 2px;
   width: 86px;
   background-color: #fdb822;
 }
 
-#fe_home_outlates_products p {
+#h_product .header-top p {
   font-size: 22px;
   font-weight: 600;
   color: #684f40;
 }
 
-#fe_home_outlates_products span {
+#h_product .header-top span {
   font-size: 16px;
   color: #7d7d7d;
 }
 
-div.fe_pro_detailpro {
+#h_product .one-product .wrap_product {
   position: relative;
   width: 99%;
   margin: auto;
@@ -783,16 +783,7 @@ div.fe_pro_detailpro {
   transition: .3s;
 }
 
-div.fe_pro_detailpro:hover a img {
-  opacity: 0.6;
-}
-
-div.fe_pro_detailpro:hover .pro-hover-info {
-  display: block;
-  opacity: 0.9;
-}
-
-div.fe_pro_detailpro a img {
+#h_product .one-product .wrap_product a img {
   padding: 25px 0 25px 0;
   border: 7px solid white;
   -webkit-box-sizing: border-box;
@@ -800,7 +791,16 @@ div.fe_pro_detailpro a img {
   height: 255px;
 }
 
-.pro-hover-info {
+#h_product .one-product .wrap_product:hover a img {
+  opacity: 0.6;
+}
+
+#h_product .one-product .wrap_product:hover .pro-hover-info {
+  display: block;
+  opacity: 0.9;
+}
+
+#h_product .one-product .wrap_product .pro-hover-info {
   display: none;
   position: absolute;
   top: 50%;
@@ -816,11 +816,15 @@ div.fe_pro_detailpro a img {
   color: white;
 }
 
-.pro-hover-info span {
+#h_product .one-product .wrap_product .pro-hover-info span {
   color: white;
 }
 
-div.btn-view-course {
+#h_product .one-product .wrap_product .pro-hover-info > p {
+  padding-top: 25px;
+}
+
+#h_product .one-product .wrap_product .pro-hover-info .btn-view-course {
   position: absolute;
   z-index: 1;
   width: 43px;
@@ -838,13 +842,13 @@ div.btn-view-course {
   line-height: 36px;
 }
 
-div.btn-view-course:hover {
+#h_product .one-product .wrap_product .pro-hover-info .btn-view-course:hover {
   border: 3px solid #1b1e21;
   background-color: #1b1e21;
   color: white;
 }
 
-.btn-view-all-course {
+#h_product .btn-view-all-course {
   padding: 10px 18px;
   background-color: #fff;
   border: 2px solid #684f40;
@@ -855,13 +859,253 @@ div.btn-view-course:hover {
   transition: .3s;
 }
 
-.btn-view-all-course:hover {
+#h_product .btn-view-all-course:hover {
   background-color: #684f40;
   color: white;
 }
 
-div.pro-hover-info > p {
-  padding-top: 25px;
+#h_slogun {
+  background-image: url("http://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/12/img-11.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 150px;
+}
+
+#h_slogun .bg_img_opacity {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  opacity: 0.8;
+}
+
+#h_slogun img {
+  width: 500px;
+  height: auto;
+  position: absolute;
+  z-index: 1;
+  margin: auto;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+#h_slogun p {
+  font-weight: bolder;
+  color: #684f40;
+  font-size: 38px;
+  padding: 40px 0px 0px 0px;
+  font-stretch: expanded;
+}
+
+#h_slogun p.de-pro-slogan {
+  font-weight: 500;
+  font-size: 22px;
+  color: #684f40;
+  padding-bottom: 220px;
+}
+
+@media (min-width: 300px) and (max-width: 999px) {
+  #h_slogun img {
+    width: 70%;
+    height: auto;
+    position: absolute;
+    z-index: 1;
+    margin: auto;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+}
+
+#h_slider .carousel-item .edit-slide {
+  position: relative;
+}
+
+#h_slider .carousel-item .edit-slide img.main-slider {
+  width: 100%;
+}
+
+#h_slider .carousel-item .edit-slide .test-slide {
+  position: absolute;
+  top: -524px;
+}
+
+#h_slider .carousel-item .edit-slide .test-slide h2 {
+  font-weight: bolder;
+  font-size: 50px;
+  letter-spacing: 0px;
+  line-height: 1.5;
+  color: white;
+}
+
+#h_slider .carousel-item .edit-slide .test-slide span {
+  color: white;
+  line-height: 2;
+}
+
+#h_slider .carousel-item .edit-slide .test-slide .phone-call {
+  display: table;
+  padding: 10px;
+  background-color: #02AFEE;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+#h_slider .carousel-item .edit-slide .test-slide .phone-call a {
+  color: white;
+}
+
+#h_slider .carousel-item .edit-slide img.main-slider {
+  height: auto;
+}
+
+#h_slider .carousel-item .edit-slide img.cloud-slider {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 8;
+  width: 80%;
+}
+
+#h_slider .carousel-item .edit-slide img.rocket-slider {
+  position: absolute;
+  bottom: 70px;
+  right: 0;
+  z-index: 7;
+}
+
+#h_slider .carousel-item .edit-slide img.computer-slider {
+  position: absolute;
+  right: 0;
+  bottom: 170px;
+  z-index: 7;
+  width: 35%;
+}
+
+#h_slider .carousel-item .edit-slide img.arrow-slider-1 {
+  position: absolute;
+  left: 626px;
+  bottom: 444px;
+  z-index: 7;
+}
+
+#h_slider .carousel-item .edit-slide img.chart-slider {
+  position: absolute;
+  right: 0;
+  bottom: 170px;
+  z-index: 7;
+  width: 35%;
+}
+
+@media (max-width: 575.98px) {
+  #slider2 .carousel-item .edit-slide .test-slide {
+    top: -188px;
+  }
+  #slider2 .carousel-item .edit-slide .test-slide.center-text {
+    margin-left: 5px;
+  }
+  #slider2 .carousel-item .edit-slide .test-slide h2 {
+    font-size: 18px;
+  }
+  #slider2 .carousel-item .edit-slide .test-slide span {
+    display: none;
+  }
+  #slider2 .carousel-item .edit-slide img.rocket-slider {
+    bottom: 19px;
+    width: 30%;
+  }
+  #slider2 .carousel-item .edit-slide img.computer-slider {
+    bottom: 98px;
+    width: 36%;
+  }
+  #slider2 .carousel-item .edit-slide img.main-slider {
+    height: 185px;
+  }
+  #slider2 .carousel-item .edit-slide img.arrow-slider-1 {
+    left: 222px;
+    bottom: 174px;
+    width: 30%;
+  }
+  #slider2 .carousel-item .edit-slide img.chart-slider {
+    bottom: 98px;
+    width: 36%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  #slider2 .carousel-item .edit-slide .test-slide {
+    top: -176px;
+  }
+  #slider2 .carousel-item .edit-slide .test-slide h2 {
+    font-size: 22px;
+  }
+  #slider2 .carousel-item .edit-slide .test-slide span {
+    display: none;
+  }
+  #slider2 .carousel-item .edit-slide img.rocket-slider {
+    bottom: 33px;
+    width: 15%;
+  }
+  #slider2 .carousel-item .edit-slide img.computer-slider {
+    bottom: 29px;
+    width: 36%;
+  }
+  #slider2 .carousel-item .edit-slide img.main-slider {
+    width: 100%;
+    height: 250px;
+  }
+  #slider2 .carousel-item .edit-slide img.chart-slider {
+    bottom: 41px;
+    width: 36%;
+  }
+  #slider2 .carousel-item .edit-slide img.arrow-slider-1 {
+    left: 291px;
+    bottom: 162px;
+    width: 35%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #slider2 .carousel-item .edit-slide .test-slide {
+    top: -224px;
+  }
+  #slider2 .carousel-item .edit-slide .test-slide h2 {
+    font-size: 36px;
+  }
+  #slider2 .carousel-item .edit-slide .test-slide span {
+    display: none;
+  }
+  #slider2 .carousel-item .edit-slide img.rocket-slider {
+    bottom: 33px;
+    width: 15%;
+  }
+  #slider2 .carousel-item .edit-slide img.computer-slider {
+    bottom: 29px;
+    width: 36%;
+  }
+  #slider2 .carousel-item .edit-slide img.main-slider {
+    width: 100%;
+    height: 300px;
+  }
+  #slider2 .carousel-item .edit-slide img.chart-slider {
+    bottom: 41px;
+    width: 36%;
+  }
+  #slider2 .carousel-item .edit-slide img.arrow-slider-1 {
+    left: 423px;
+    bottom: 204px;
+    width: 25%;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1124px) {
+  #slider2 .carousel-item .edit-slide img.arrow-slider-1 {
+    left: 582px;
+    bottom: 443px;
+    width: 35%;
+  }
 }
 
 div#about_chief {
@@ -884,13 +1128,12 @@ div.about_chief_cover {
 div#img_chief {
   height: 300px;
   overflow: hidden;
+  width: 100%;
+  background-color: white;
 }
 
 div#img_chief img {
-  width: auto;
   height: 100%;
-  border-left: 13px solid #d1cfcf;
-  border-right: 13px solid #d1cfcf;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -965,60 +1208,6 @@ div#about_chief_cover span {
 .img-detail:hover {
   color: #fdb822;
   border: 3px solid #fdb822;
-}
-
-div#fe_home_defProduct {
-  background-image: url("http://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/12/img-11.jpg");
-  background-size: cover;
-  background-attachment: fixed;
-  margin-bottom: 150px;
-}
-
-div#fe_home_defProduct p {
-  font-weight: bolder;
-  color: #684f40;
-  font-size: 38px;
-  padding: 40px 0px 0px 0px;
-  font-stretch: expanded;
-}
-
-div#fe_home_defProduct p.de-pro-slogan {
-  font-weight: 500;
-  font-size: 22px;
-  color: #684f40;
-  padding-bottom: 220px;
-}
-
-div.fe_home_defProduct-opacity {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  background-color: #fff;
-  opacity: 0.8;
-}
-
-div#fe_home_defProduct img {
-  width: 40%;
-  height: auto;
-  position: absolute;
-  z-index: 1;
-  margin: auto;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-}
-
-@media (min-width: 300px) and (max-width: 999px) {
-  div#fe_home_defProduct img {
-    width: 70%;
-    height: auto;
-    position: absolute;
-    z-index: 1;
-    margin: auto;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-  }
 }
 
 div.special-course-cooking hr {
@@ -1728,4 +1917,241 @@ div#category_list .category_items .pl-3 > a {
   font-size: 16px;
   color: #fdb822;
   font-weight: 600;
+}
+
+#contact_info {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#contact_info .contact_top {
+  line-height: 1.5 !important;
+}
+
+#contact_info .contact_top div i {
+  font-size: 30px;
+  border: 2px solid #5d5d5e;
+  padding: 10px;
+  border-radius: 50%;
+  color: #5d5d5e;
+}
+
+#contact_info .contact_top div .addres_contactus {
+  color: #035aeb;
+  font-weight: 600;
+}
+
+#contact_info .contact_top h3.title {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+#contact_info .contact_top p {
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+#contact_info .contact_top h4 {
+  font-size: 26px;
+  color: red;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+#contact_info .contact_top ul {
+  list-style: none;
+}
+
+#contact_info .contact_top ul li {
+  width: 100%;
+}
+
+#contact_info .contact_top ul li i {
+  margin-right: 10px;
+  border: 2px solid #1b1e21;
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  padding: 6px;
+  margin: auto;
+}
+
+#contact_info .contact_bottom .input-group {
+  margin-bottom: 20px;
+}
+
+#contact_info .contact_bottom .input-group input, #contact_info .contact_bottom .input-group textarea {
+  border-radius: inherit;
+}
+
+#contact_info .contact_bottom button {
+  border-radius: inherit;
+  background-color: #0d51db;
+  color: white;
+  font-weight: bold;
+}
+
+#contact_info .contact_bottom button .successSending, #contact_info .contact_bottom button .loadingSending {
+  margin-left: 5px;
+}
+
+@media (max-width: 575.98px) {
+  #contact_info .contact_top {
+    margin-top: 20px;
+  }
+  #contact_info .contact_bottom .button-group {
+    text-align: center;
+  }
+}
+
+#introduce-info {
+  margin-top: 20px;
+}
+
+#introduce-info h1 {
+  display: block;
+  text-align: center;
+  font-size: 28px;
+  color: #0d51db;
+}
+
+#introduce-info #content-info .description {
+  margin-top: 20px;
+  line-height: 1.5 !important;
+}
+
+#ii_content {
+  background-image: url(http://expert-themes.com/html/motor-expert/images/background/pattern-2.png);
+  background-size: cover;
+}
+
+#ii_content p {
+  position: relative;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+#ii_content p:before {
+  bottom: -10px;
+  left: 50%;
+  position: absolute;
+  content: '';
+  width: 68px;
+  height: 3px;
+  background-color: red;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+
+#ii_content span {
+  line-height: 23px;
+}
+
+#ii_content img {
+  border: 3px solid #5b5e61;
+  width: 68px;
+  height: auto;
+  border-radius: 50%;
+}
+
+#ii_content img.battery-chinhhang {
+  border: 3px solid #5b5e61;
+  width: 68px;
+  height: auto;
+  padding: 8px;
+  border-radius: 0;
+  margin-right: 20px;
+}
+
+#ii_content .customer-feedback {
+  position: relative;
+  padding: 20px 18px;
+  border: 3px solid #5b5e61;
+  margin-left: 10px;
+  border-radius: 5px;
+  line-height: 28px;
+}
+
+#ii_content .customer-feedback:before {
+  position: absolute;
+  top: 45%;
+  left: -7px;
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-top: 3px solid #5b5e61;
+  border-left: 3px solid #5b5e61;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  background-color: white;
+}
+
+#ii_content .customer-feedback span.title_ldnp {
+  font-weight: bold;
+}
+
+#ii_content img.img-customer2 {
+  display: none;
+}
+
+#ii_content .customer-feedback img.battery-chinhhang2 {
+  display: none;
+  border: 3px solid #5b5e61;
+  width: 68px;
+  height: auto;
+  padding: 8px;
+  border-radius: 0;
+  margin-right: 20px;
+}
+
+#ii_content #contact_info2 span.special-thank {
+  font-size: 20px;
+  color: red;
+}
+
+#ii_content #contact_info2 > a {
+  color: #088cd8;
+  line-height: 20px;
+  font-weight: 600;
+}
+
+@media (min-width: 300px) and (max-width: 700px) {
+  #ii_content img.img-customer1 {
+    display: none;
+  }
+  #ii_content img.img-customer2 {
+    display: block;
+    margin: auto;
+    margin-top: 8px;
+  }
+  #ii_content .customer-feedback img.battery-chinhhang {
+    display: none;
+  }
+  #ii_content .customer-feedback:before {
+    content: '';
+    border-top: 0;
+    border-left: 0;
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    background-color: transparent;
+  }
+}
+
+#al_info {
+  padding-top: 20px;
+}
+
+#al_info .grid-album .grid-sizer,
+#al_info .grid-album .grid-item {
+  width: 33.333%;
+}
+
+#al_info .grid-album .grid-item {
+  float: left;
+}
+
+#al_info .grid-album .grid-item img {
+  display: block;
+  max-width: 100%;
 }

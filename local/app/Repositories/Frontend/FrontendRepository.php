@@ -13,7 +13,7 @@ class FrontendRepository implements FrontendRepositoryInterface
     public function getFrontend()
     {
         $data = '';
-        $products = Post::where('post_type', IS_POST)->where('category_item_id', 1)->where('isActive', ACTIVE)->get();
+        $products = Post::where('post_type', IS_POST)->where('category_item_id', 1)->where('isActive', ACTIVE)->take(8)->get();
         $data['products'] = $products;
         return $data;
     }

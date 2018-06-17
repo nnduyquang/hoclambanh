@@ -2,7 +2,7 @@
 
 @section('bodycontent')
 
-    @include('frontend.home.fe_home_banner')
+    @include('frontend.home.h_slider')
     @include('frontend.category.categorry_list')
 
 @endsection

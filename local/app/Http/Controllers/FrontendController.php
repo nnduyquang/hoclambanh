@@ -26,6 +26,18 @@ class FrontendController extends Controller
         $data = $this->frontendRepository->getCategoryDetail($path);
         return view('frontend.category.index', compact('data'));
     }
+    public function getPage($type)
+    {
+        if($type==2){
+//            $configs = Config::whereIn('name', ['config-introduce'])->first();
+//            $data['content']=$configs->content;
+            $data['type'] = 2;
+        }else{
+            $data['type'] = $type;
+        }
+
+        return view('frontend.page.index', compact('data'));
+    }
 
 }
 

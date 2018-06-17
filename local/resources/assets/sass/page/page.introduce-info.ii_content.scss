@@ -1,0 +1,111 @@
+#ii_content {
+  background-image: url(http://expert-themes.com/html/motor-expert/images/background/pattern-2.png);
+  background-size: cover;
+  p {
+    position: relative;
+    font-size: 23px;
+    font-weight: bold;
+    &:before {
+      bottom: -10px;
+      left: 50%;
+      position: absolute;
+      content: '';
+      width: 68px;
+      height: 3px;
+      background-color: red;
+      left: 50%;
+      transform: translate(-50%);
+    }
+  }
+  span {
+    line-height: 23px;
+  }
+  img {
+    border: 3px solid #5b5e61;
+    width: 68px;
+    height: auto;
+    border-radius: 50%;
+  }
+  img.battery-chinhhang {
+    border: 3px solid #5b5e61;
+    width: 68px;
+    height: auto;
+    padding: 8px;
+    border-radius: 0;
+    margin-right: 20px;
+  }
+  .customer-feedback {
+    position: relative;
+    padding: 20px 18px;
+    border: 3px solid #5b5e61;
+    margin-left: 10px;
+    border-radius: 5px;
+    line-height: 28px;
+    &:before {
+      position: absolute;
+      top: 45%;
+      left: -7px;
+      content: '';
+      width: 10px;
+      height: 10px;
+      border-top: 3px solid #5b5e61;
+      border-left: 3px solid #5b5e61;
+      transform: rotate(-45deg);
+      background-color: white;
+    }
+    span.title_ldnp {
+      font-weight: bold;
+    }
+  }
+  img.img-customer2 {
+    display: none;
+  }
+  .customer-feedback {
+    img.battery-chinhhang2 {
+      display: none;
+      border: 3px solid #5b5e61;
+      width: 68px;
+      height: auto;
+      padding: 8px;
+      border-radius: 0;
+      margin-right: 20px;
+    }
+  }
+  #contact_info2 {
+    span.special-thank {
+      font-size: 20px;
+      color: red;
+
+    }
+    > a {
+      color: #088cd8;
+      line-height: 20px;
+      font-weight: 600;
+    }
+  }
+}
+
+@media (min-width: 300px) and (max-width: 700px) {
+  #ii_content {
+    img.img-customer1 {
+      display: none;
+    }
+    img.img-customer2 {
+      display: block;
+      margin: auto;
+      margin-top: 8px;
+    }
+    .customer-feedback {
+      img.battery-chinhhang {
+        display: none;
+      }
+      &:before {
+        content: '';
+        border-top: 0;
+        border-left: 0;
+        transform: rotate(-45deg);
+        background-color: transparent;
+      }
+    }
+  }
+}

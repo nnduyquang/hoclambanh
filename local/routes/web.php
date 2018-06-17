@@ -4,6 +4,11 @@
 Route::get('/','FrontendController@getFrontend');
 Route::get('/khoa-hoc/{path}','FrontendController@getProductDetail');
 Route::get('/danh-muc/{path}','FrontendController@getCategoryDetail');
+Route::get('/lien-he','FrontendController@getPage')->defaults('type','1');
+Route::get('/album',function(){
+    return view('frontend.album.index');
+});
+Route::get('/gioi-thieu','FrontendController@getPage')->defaults('type','2');
 
 Route::post('/tim-kiem','FrontendController@getSearch')->name('search');
 

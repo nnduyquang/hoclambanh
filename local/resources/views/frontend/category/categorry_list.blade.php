@@ -8,7 +8,7 @@
                     </div>
                     @foreach($data['products'] as $key=>$item)
                         <div class="col-md-6 category_items d-flex align-items-center mt-3 mb-4">
-                            <a href="" class="">
+                            <a href="{{URL::to('khoa-hoc/'.$item->path)}}" class="">
                                 {{ Html::image($item->image,'',array('class'=>'')) }}
                             </a>
                             <div class="pl-3">

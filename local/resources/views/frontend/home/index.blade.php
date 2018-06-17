@@ -10,14 +10,14 @@
 @stop
 @section('bodycontent')
 
-    @include('frontend.home.fe_home_banner')
-    @include('frontend.home.fe_home_outlatest_product')
+    @include('frontend.home.h_slider')
+    @include('frontend.home.h_product')
     @include('frontend.home.fe_h_about_chief')
     @include('frontend.home.fe_h_divhcuchinh')
-    @include('frontend.home.fe_home_defferencetype')
+    @include('frontend.home.h_slogun')
     @include('frontend.home.fe_h_khoahockhuyenmai')
     @include('frontend.home.fe_h_gift')
-    @include('frontend.home.fe_h_staff')
+    {{--@include('frontend.home.fe_h_staff')--}}
     @include('frontend.home.fe_home_map')
 
 

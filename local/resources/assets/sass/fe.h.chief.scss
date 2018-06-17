@@ -18,13 +18,12 @@ div.about_chief_cover {
 div#img_chief {
   height: 300px;
   overflow: hidden;
+  width: 100%;
+  background-color: white;
 }
 
 div#img_chief img {
-  width: auto;
   height: 100%;
-  border-left: 13px solid #d1cfcf;
-  border-right: 13px solid #d1cfcf;
   box-sizing: border-box;
 
 }
