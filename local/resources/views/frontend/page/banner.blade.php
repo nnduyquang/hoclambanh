@@ -37,7 +37,7 @@
                 <div class="row">
                     <div class="col-md-12 text-left">
                         <p>LIÊN HỆ VỚI CHÚNG TÔI</p>
-                        <span><b>HOÀNG NHẬT</b></span>
+                        <span><b>HỌC LÀM BÁNH CHÚ QUÂN</b></span>
                     </div>
                 </div>
             </div>
