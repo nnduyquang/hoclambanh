@@ -1,5 +1,7 @@
 <?php
-
+Route::get('/about-us', function () {
+    return view('frontend.pages.about-us');
+});
 
 Route::get('/','FrontendController@getFrontend');
 Route::get('/khoa-hoc/{path}','FrontendController@getProductDetail');

@@ -788,7 +788,7 @@ div#fe_home_banner img-slider img {
   border: 7px solid white;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  height: 255px;
+  height: auto;
 }
 
 #h_product .one-product .wrap_product:hover a img {

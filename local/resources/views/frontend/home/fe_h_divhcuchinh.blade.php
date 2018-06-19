@@ -17,7 +17,7 @@
                 <div class="card one-product h-100 rounded">
                     <a href="#">
                         <div class="img-detail">
-                            <i class="fas fa-birthday-cake"></i>
+                            <i class="fas fa-chart-pie"></i>
                         </div>
                     </a>
 
@@ -62,7 +62,7 @@
                 <div class="card one-product h-100 rounded">
                     <a href="#">
                         <div class="img-detail">
-                            <i class="fas fa-birthday-cake"></i>
+                            <i class="fas fa-book-open"></i>
                         </div>
                     </a>
                     <div class="card-body text-center m-0 p-0 pt-2">
@@ -84,7 +84,7 @@
                 <div class="card one-product h-100 rounded">
                     <a href="#">
                         <div class="img-detail">
-                            <i class="fas fa-birthday-cake"></i>
+                            <i class="fab fa-grunt"></i>
                         </div>
                     </a>
                     <div class="card-body text-center m-0 p-0 pt-2">

@@ -8,13 +8,14 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4 text-center mb-5 mt-5">
+
                 <div class="row align-self-center justify-content-center compoment-gift">
                     <div class="align-self-center mb-3">
-                        <a href=""><i class="fas fa-gift"></i></a>
+                        <a href=""><i class="fab fa-audible"></i></a>
                     </div>
                     <div class="align-self-center mb-3">
                         <p class="pb-2">GIA TRUYỀN</p>
-                        Lớp dạy làm bánh gia truyền 25 năm trong nghề
+                        Lớp dạy làm bánh gia truyền 25 năm trong nghề làm bánh và dạy học cách làm bánh.
 
                     </div>
                 </div>
@@ -22,7 +23,7 @@
             <div class="col-md-4 text-center mb-5 mt-5">
                 <div class="row align-self-center justify-content-center compoment-gift">
                     <div class="align-self-center mb-3">
-                        <a href=""><i class="fas fa-gift"></i></a>
+                        <a href=""><i class="far fa-clock"></i></a>
                     </div>
                     <div class="align-self-center mb-3">
                         <p class="pb-2">CAM KẾT</p>
@@ -34,7 +35,7 @@
             <div class="col-md-4 text-center mb-5 mt-5">
                 <div class="row align-self-center justify-content-center compoment-gift">
                     <div class="align-self-center mb-3">
-                        <a href=""><i class="far fa-clock"></i></a>
+                        <a href=""><i class="fab fa-docker"></i></a>
                     </div>
                     <div class="align-self-center mb-3">
                         <p class="pb-2">NGUYÊN LIỆU</p>

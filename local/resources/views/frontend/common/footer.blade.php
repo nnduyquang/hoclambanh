@@ -11,7 +11,7 @@
 
                 </div>
                 <div class="col-md-2 align-self-center pb-3">
-                    {{ Html::image('images/logo/logo.png','',array('style'=>'width: 118px;height:118px')) }}
+                    {{ Html::image('images/logo/logo-footer.png','',array('style'=>'width: 118px;height:118px')) }}
                 </div>
                 <div class="col-md-5 align-self-center text-right pb-3 fe-layout-foot-emailuscontent">
                     <p>NHẬN THÔNG TIN KHÓA HỌC</p>
