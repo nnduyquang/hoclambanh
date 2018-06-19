@@ -16,10 +16,10 @@ div.about_chief_cover {
 }
 
 div#img_chief {
-  height: 300px;
+  height: 100%;
   overflow: hidden;
-  width: 100%;
-  background-color: white;
+  width: auto;
+
 }
 
 div#img_chief img {
@@ -45,7 +45,7 @@ div#about_chief_cover span {
     border-left: 8px solid #d1cfcf;
     border-right: 8px solid #d1cfcf;
     box-sizing: border-box;
-
+    margin: auto;
   }
 }
 
@@ -62,6 +62,7 @@ div#about_chief_cover span {
     border-left: 8px solid #d1cfcf;
     border-right: 8px solid #d1cfcf;
     box-sizing: border-box;
+    margin: auto;
 
   }
 

@@ -2,6 +2,10 @@
 div#aboutus-history-element a{
     padding: 8px 5px;
 }
+
+div#aboutus-history-element .col-sm-4{
+
+}
 </style>
 <div id="about-us">
     <div class="container-fluid bg-light" id="aboutus-history">
@@ -13,6 +17,7 @@ div#aboutus-history-element a{
                         <div class="col-sm-4"><a href="">1995</a></div>
                         <div class="col-sm-8 bg-white border p-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit dolore magna aliqua.</div>
                         </div>
+
                     </div>
                 </div>
                 <div class="col-md-6">

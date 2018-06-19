@@ -9,7 +9,7 @@
 
             <div class="row">
                 <div class="col-lg-4 col-md-6 align-self-center" id="img_chief">
-                    {{ Html::image('images/temps/home/dau_bep_temp.png','',array('class'=>'')) }}
+                    {{ Html::image('images/uploads/thaylambanh.png','',array('class'=>'')) }}
                 </div>
 
                 <div class="col-lg-8 col-md-6 text-right">
