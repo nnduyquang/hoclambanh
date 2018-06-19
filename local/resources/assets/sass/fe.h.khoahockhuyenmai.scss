@@ -126,7 +126,23 @@ div#Tokyo .row:after {
   transform: rotate(315deg);
 }
 
-@media (min-width: 500px) and (max-width: 999px) {
+@media (min-width: 350px) and (max-width: 999px) {
+
+
+  div#Tokyo .row:after,div#Paris .row:after,div#London .row:after {
+    content: "";
+    position: absolute;
+    top:0;
+    /* To the left of the tooltip */
+    margin-top: -5px;
+    left:80%;
+    right: 10px;
+    width: 16px;
+    height: 16px;
+    background-color: transparent;
+    border: 0;
+    transform: rotate(45deg);
+  }
 
   .tab a {
     background-color: #fff;

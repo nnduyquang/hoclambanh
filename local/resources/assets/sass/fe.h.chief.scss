@@ -45,14 +45,15 @@ div#about_chief_cover span {
     border-left: 8px solid #d1cfcf;
     border-right: 8px solid #d1cfcf;
     box-sizing: border-box;
-    margin: auto;
   }
 }
 
 @media (min-width: 300px) and (max-width: 999px) {
 
-  div.about_chief_cover .col-md-6 {
-    text-align: center;
+
+  div#img_chief{
+    width: inherit;
+    margin:auto;
   }
 
   div#img_chief img {
@@ -63,7 +64,8 @@ div#about_chief_cover span {
     border-right: 8px solid #d1cfcf;
     box-sizing: border-box;
     margin: auto;
-
   }
+
+
 
 }

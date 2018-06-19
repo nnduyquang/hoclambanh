@@ -48,7 +48,7 @@
                 </div>
 
                 <div id="Tokyo" class="tabcontent position-relative">
-                    <div class="row p-1 pos">
+                    <div class="row p-1 pos d-flex align-items-center">
                         <div class="col-md-6 p-3 text-center" style="line-height: 1.5">
                             <p>CÁC MÓN NGON KHÁC</p><br>
                             <br>
