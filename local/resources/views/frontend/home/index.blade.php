@@ -18,7 +18,7 @@
     @include('frontend.home.fe_h_khoahockhuyenmai')
     @include('frontend.home.fe_h_gift')
     {{--@include('frontend.home.fe_h_staff')--}}
-    @include('frontend.home.fe_home_map')
+    {{--@include('frontend.home.fe_home_map')--}}
 
 
 @stop

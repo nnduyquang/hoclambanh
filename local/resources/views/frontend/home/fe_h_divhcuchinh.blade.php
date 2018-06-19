@@ -27,7 +27,7 @@
                             <p style="font-size: 16px;color: #f28300;" class="pb-2"><b>HỌC LÀM BÁNH MÌ</b></p>
                         </a>
                         <br>
-                        <span style="font-size: 12px;color: #aaa7a7;"> Học đúng bài bản, đúng kỹ thuật, làm được ngay buổi đầu tiên</span>
+                        <span style="font-size: 12px;color: black;"> Học đúng bài bản, đúng kỹ thuật, làm được ngay buổi đầu tiên</span>
 
 
                     </div>
@@ -49,7 +49,7 @@
                             <p style="font-size: 16px;color: #f28300;" class="pb-2"><b>HỌC LÀM BÁNH KEM</b></p>
                         </a>
                         <br>
-                        <span style="font-size: 12px;color: #aaa7a7;"> Học từ cơ bản đến nâng cao, trang trí bánh kem theo cổ điển và hiện đại</span>
+                        <span style="font-size: 12px;color: black;"> Học từ cơ bản đến nâng cao, trang trí bánh kem theo cổ điển và hiện đại</span>
 
 
                     </div>
@@ -71,7 +71,7 @@
                             <p style="font-size: 16px;color: #f28300;" class="pb-2"><b>HỌC NẤU ĂN</b></p>
                         </a>
                         <br>
-                        <span style="font-size: 12px;color: #aaa7a7;"> Nhận dạy nấu bún bò, nấu phở, làm bánh bao, làm chả lụa</span>
+                        <span style="font-size: 12px;color: black;"> Nhận dạy nấu bún bò, nấu phở, làm bánh bao, làm chả lụa</span>
 
 
                     </div>
@@ -93,7 +93,7 @@
                             <p style="font-size: 16px;color: #f28300;" class="pb-2"><b>HỌC LÀM HEO QUAY XÔI CHÈ</b></p>
                         </a>
                         <br>
-                        <span style="font-size: 12px;color: #aaa7a7;"> Chia sẽ bí quyết quay heo từ khâu sơ chế đến công đoạn quay và thành phẩm. Hướng dẫn nấu chè 3 miền</span>
+                        <span style="font-size: 12px;color: black;"> Chia sẽ bí quyết quay heo từ khâu sơ chế đến công đoạn quay và thành phẩm. Hướng dẫn nấu chè 3 miền</span>
 
 
                     </div>

@@ -16,26 +16,18 @@
                         <div class="d-flex align-items-center mb-3 text-left">
                             <i class="far fa-building"></i>
                             <div class="d-flex flex-column">
-                                <div class="ml-2 addres_contactus">Địa chỉ 1 :</div>
-                                <div class="ml-2 addres_contactus2"> 475/57 Cách Mạng Tháng 8, Phường 13, Quận 10.</div>
+                                <div class="ml-2 addres_contactus">Địa chỉ :</div>
+                                <div class="ml-2 addres_contactus2"> 145/23 Lê Quang Định, Phường 14, Quận Bình Thạnh, TP.HCM</div>
                             </div>
 
                         </div>
 
-                        <div class="d-flex align-items-center mb-3 text-left">
-                            <i class="far fa-building"></i>
-                            <div class="d-flex flex-column">
-                                <div class="ml-2 addres_contactus">Địa chỉ 2 :</div>
-                                <div class="ml-2 addres_contactus2"> 53A Đông Nhì, Thuận An, Bình Dương.</div>
-                            </div>
-
-                        </div>
 
                         <div class="d-flex align-items-center mb-3 text-left">
                             <i class="fas fa-phone"></i>
                             <div class="d-flex flex-column">
                                 <div class="ml-2 addres_contactus">Hotline :</div>
-                                <div class="ml-2 addres_contactus2"> 0904 9678 20</div>
+                                <div class="ml-2 addres_contactus2"> 0989.480.048</div>
                             </div>
 
                         </div>

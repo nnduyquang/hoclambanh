@@ -14,6 +14,6 @@
         @include('frontend.page.banner')
         @include('frontend.page.contact')
     @else
-        @include('frontend.page.introduce')
+        @include('frontend.pages.about-us')
     @endif
 @stop
