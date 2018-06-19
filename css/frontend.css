@@ -1111,7 +1111,7 @@ div#fe_home_banner img-slider img {
 div#about_chief {
   background-image: url("http://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/12/img-2.jpg");
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size: cover;
   background-color: rgba(0, 0, 0, 0.3);
   height: auto;
   position: relative;
