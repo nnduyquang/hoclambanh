@@ -22,7 +22,7 @@
                                         </div>
                                     </a>
 
-                                    <p style="font-size: 15px;color: white">BÁNH SỪNG TRÂU</p>
+                                    <p style="font-size: 15px;color: white">{{$item->title}}</p>
                                     <span style="color: white;margin-top: 15px;">Xem thông tin khóa học</span>
                                 </div>
                             </div>
