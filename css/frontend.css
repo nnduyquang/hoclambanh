@@ -1883,7 +1883,7 @@ div#fe_home_gift span {
   color: white;
 }
 
-div#category_list .col-md-12 > p {
+div#category_list .top-category-list h1.title {
   position: relative;
   font-size: 20px;
   font-weight: 600;
@@ -1894,11 +1894,7 @@ div#category_list .col-md-12 > p {
   text-transform: uppercase;
 }
 
-div#category_list .description {
-  line-height: 1.8;
-}
-
-div#category_list .col-md-12 > p:before {
+div#category_list .top-category-list h1.title:before {
   position: absolute;
   content: '';
   width: 58px;
@@ -1907,7 +1903,15 @@ div#category_list .col-md-12 > p:before {
   bottom: -2px;
 }
 
-div#category_list .category_items a img {
+div#category_list .top-category-list .description {
+  line-height: 1.8;
+}
+
+div#category_list .bottom-category-list .description {
+  line-height: 1.8;
+}
+
+div#category_list .bottom-category-list .category_items a img {
   width: 138px;
   height: 138px;
   border: 3px solid #f9f9f9;
@@ -1918,18 +1922,18 @@ div#category_list .category_items a img {
   transition: .3s;
 }
 
-div#category_list .category_items a:hover img {
+div#category_list .bottom-category-list .category_items a:hover img {
   border-radius: 50%;
   border: 3px solid #fdb822;
 }
 
-div#category_list .category_items p {
+div#category_list .bottom-category-list .category_items p {
   font-size: 18px;
   color: #684f40;
   font-weight: 600;
 }
 
-div#category_list .category_items .pl-3 > a {
+div#category_list .bottom-category-list .category_items .pl-3 > a {
   font-size: 16px;
   color: #fdb822;
   font-weight: 600;
