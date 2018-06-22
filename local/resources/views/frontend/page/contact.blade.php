@@ -36,7 +36,7 @@
                             <i class="far fa-clock"></i>
                             <div class="d-flex flex-column">
                                 <div class="ml-2 addres_contactus">Thời gian làm việc :</div>
-                                <div class="ml-2 addres_contactus2">T2~CN / 8AM~9PM</div>
+                                <div class="ml-2 addres_contactus2">T2~CN / 8AM~10PM</div>
                             </div>
 
                         </div>

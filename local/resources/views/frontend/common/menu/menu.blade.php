@@ -6,7 +6,7 @@
                 <div class="col-md-8 d-none d-lg-block d-md-block text-left align-self-center" id="fe_layout_topinfo">
                     <ul>
                         <li><p><i class="fas fa-phone-square"></i> 0989.480.048</p></li>
-                        <li><p><i class="fas fa-clock"></i> Từ thứ hai đến chủ nhật: 7:00 - 17:00</p></li>
+                        <li><p><i class="fas fa-clock"></i> Từ thứ hai đến chủ nhật: 7:00 - 22:00</p></li>
                     </ul>
 
                 </div>

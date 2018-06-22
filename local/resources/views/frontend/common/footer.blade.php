@@ -36,7 +36,7 @@
                 <div class="col-md-6 col-sm-6 col-12">
                     <ul class="">
                         <li>THỜI GIAN LÀM VIỆC</li>
-                        <li><b> <i>8:00 giờ sáng – 5:00 giờ chiều </i></b>
+                        <li><b> <i>8:00 giờ sáng – 10:00 giờ tối </i></b>
                         </li>
                         <li><b> <i>Từ thứ hai đến chủ nhật </i></b>
                         </li>
