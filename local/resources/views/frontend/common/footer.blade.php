@@ -14,14 +14,14 @@
                     {{ Html::image('images/logo/logo-footer.png','',array('style'=>'width: 118px;height:118px')) }}
                 </div>
                 <div class="col-md-5 align-self-center text-right pb-3 fe-layout-foot-emailuscontent">
-                    <p>NHẬN THÔNG TIN KHÓA HỌC</p>
-                    <span>Đăng ký nhận thông tin cập nhật về khóa học làm bánh</span>
-                    <br>
-                    <div class="fe-layout-foot-emailus">
-                        <input type="text"
-                               placeholder="Nhập email của bạn..">
-                        <button class="btn-emailus">ĐĂNG KÝ NHẬN MAIL</button>
-                    </div>
+                    {{--<p>NHẬN THÔNG TIN KHÓA HỌC</p>--}}
+                    {{--<span>Đăng ký nhận thông tin cập nhật về khóa học làm bánh</span>--}}
+                    {{--<br>--}}
+                    {{--<div class="fe-layout-foot-emailus">--}}
+                        {{--<input type="text"--}}
+                               {{--placeholder="Nhập email của bạn..">--}}
+                        {{--<button class="btn-emailus">ĐĂNG KÝ NHẬN MAIL</button>--}}
+                    {{--</div>--}}
                 </div>
             </div>
         </div>
