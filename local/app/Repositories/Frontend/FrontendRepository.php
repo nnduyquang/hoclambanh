@@ -38,6 +38,7 @@ class FrontendRepository implements FrontendRepositoryInterface
     {
         $data = '';
         $category = CategoryItem::where('path', $path)->where('type', CATEGORY_POST)->first();
+
         $products = Post::where('category_item_id', $category->id)->where('isActive', ACTIVE)->get();
         if (count($products) == 1) {
             $data['type'] = 1;

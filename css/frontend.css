@@ -1939,6 +1939,16 @@ div#category_list .bottom-category-list .category_items .pl-3 > a {
   font-weight: 600;
 }
 
+div#category_list p.title {
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+div#category_list .description {
+  line-height: 1.5;
+}
+
 #contact_info {
   margin-bottom: 20px;
   margin-top: 20px;

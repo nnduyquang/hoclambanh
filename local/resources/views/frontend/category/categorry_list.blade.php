@@ -31,7 +31,7 @@
                 </div>
             @elseif($data['type']==1)
                 <div class="col-md-12">
-                    <p>{{$data['category']->name}}</p>
+                    <p class="title" >{{$data['category']->name}}</ptitle>
                 </div>
                 <div class="col-md-12">
                     <div class="description">
